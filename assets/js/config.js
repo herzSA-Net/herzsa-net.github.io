@@ -26,7 +26,7 @@ export const config = {
 
   // URL pública definitiva (con "/" final). Provisional hasta confirmar.
   // Si cambia, actualice también sitemap.xml, robots.txt y canonical/og:url.
-  siteUrl: "https://silver2452.github.io/",
+  siteUrl: "https://herzsa-net.github.io/",
 
   // --- Responsable legal (aviso de privacidad / términos) -------------
   legal: {

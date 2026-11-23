@@ -52,7 +52,7 @@ Use un servidor local; al abrir los archivos con doble clic (`file://`) el naveg
 2. **Cobertura:** cada localidad es `["Nombre", ["id-de-red", ...]]`; los `id` son los de `allies`. Los colores de cada red solo sirven para distinguirlas en el sitio y no son colores oficiales de esas marcas.
 3. **Logotipos:** reemplace los archivos de `assets/images/` conservando el nombre.
 4. **Textos legales:** edite `privacidad/index.html` y `terminos/index.html` y busque `PENDIENTE DE CONFIRMAR`.
-5. **URL pública:** si no se publica en `https://silver2452.github.io/`, actualice `siteUrl` en `config.js`, `sitemap.xml`, `robots.txt` y las etiquetas `canonical`/`og:url` de cada página.
+5. **URL pública:** si no se publica en `https://herzsa-net.github.io/`, actualice `siteUrl` en `config.js`, `sitemap.xml`, `robots.txt` y las etiquetas `canonical`/`og:url` de cada página.
 6. **Cuando Roku apruebe la app:** en `config.js` ponga `apps.roku.status: "publicada"` y `storeUrl`, y revise los textos fijos «en proceso de publicación» de `herzsa-tv/index.html` y `soporte/index.html`.
 
 ## Información pendiente de confirmar
@@ -85,33 +85,33 @@ Requiere su autorización: estos comandos crean un repositorio **público** en s
 cd Pagina_Web_Nueva
 git add .
 git commit -m "Sitio oficial HerzSA.Net"
-gh repo create silver2452.github.io --public --source=. --remote=origin --push
-gh api -X POST repos/silver2452/silver2452.github.io/pages \
+gh repo create herzSA-Net/herzsa-net.github.io --public --source=. --remote=origin --push
+gh api -X POST repos/herzSA-Net/herzsa-net.github.io/pages \
   -f "source[branch]=main" -f "source[path]=/"
 ```
 
 Si GitHub ya activó Pages automáticamente, el último comando responde que ya existe; no es un error. Para verificar:
 
 ```bash
-gh api repos/silver2452/silver2452.github.io/pages --jq '.status, .html_url'
-curl -I https://silver2452.github.io/
+gh api repos/herzSA-Net/herzsa-net.github.io/pages --jq '.status, .html_url'
+curl -I https://herzsa-net.github.io/
 ```
 
-**Desde el navegador:** cree un repositorio público llamado `silver2452.github.io`, suba el contenido de esta carpeta (raíz) y en *Settings → Pages* elija *Deploy from a branch*, rama `main`, carpeta `/ (root)`. Active *Enforce HTTPS*.
+**Desde el navegador:** cree un repositorio público llamado `herzsa-net.github.io`, suba el contenido de esta carpeta (raíz) y en *Settings → Pages* elija *Deploy from a branch*, rama `main`, carpeta `/ (root)`. Active *Enforce HTTPS*.
 
 **Dominio propio (opcional):** si se usará un dominio como `herzsa.net`, configúrelo en *Settings → Pages → Custom domain* (GitHub crea el archivo `CNAME`), apunte el DNS según la documentación de GitHub y actualice las URL indicadas en «Cómo editar datos», paso 4.
 
 ## URL para Roku Developer
 
-Válidas una vez publicado y verificado el sitio en `https://silver2452.github.io/`:
+Válidas una vez publicado y verificado el sitio en `https://herzsa-net.github.io/`:
 
 | Campo | URL |
 |---|---|
-| Developer Website | https://silver2452.github.io/ |
-| Privacy Policy | https://silver2452.github.io/herzsa-tv/privacidad/ |
-| Terms of Use | https://silver2452.github.io/herzsa-tv/terminos/ |
-| Customer Support URL | https://silver2452.github.io/herzsa-tv/soporte/ |
-| More Information URL | https://silver2452.github.io/herzsa-tv/ |
+| Developer Website | https://herzsa-net.github.io/ |
+| Privacy Policy | https://herzsa-net.github.io/herzsa-tv/privacidad/ |
+| Terms of Use | https://herzsa-net.github.io/herzsa-tv/terminos/ |
+| Customer Support URL | https://herzsa-net.github.io/herzsa-tv/soporte/ |
+| More Information URL | https://herzsa-net.github.io/herzsa-tv/ |
 
 ## Descargas de HerzSA TV
 
