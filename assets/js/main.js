@@ -116,6 +116,10 @@ function linkFor(kind) {
       return isSet(c.supportEmail) ? `mailto:${c.supportEmail}?subject=${encodeURIComponent("Información para nuevos aliados MultiNet")}` : null;
     case "phone": return isSet(c.phone) ? `tel:${c.phone.replace(/[^\d+]/g, "")}` : null;
     case "whatsapp": return isSet(c.whatsapp) ? `https://wa.me/${c.whatsapp.replace(/\D/g, "")}` : null;
+    case "whatsapp-contratar":
+      return isSet(c.whatsapp)
+        ? `https://wa.me/${c.whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent("Hola, quiero contratar el servicio de Internet de HerzSA.Net.")}`
+        : null;
     default: return null;
   }
 }
@@ -129,6 +133,7 @@ function initContactButtons() {
       el.classList.remove("is-disabled");
       if (href.startsWith("https://")) { el.target = "_blank"; el.rel = "noopener noreferrer"; }
       el.querySelector(".btn__note")?.remove();
+      if (el.classList.contains("wa-float")) el.hidden = false;
     } else {
       el.removeAttribute("href");
       el.setAttribute("aria-disabled", "true");

@@ -1807,3 +1807,30 @@ kbd { font: 700 .82em var(--font); padding: .1em .45em; border: 1px solid var(--
 .lg-arco.is-disabled { background: linear-gradient(180deg, #1E9447, #127434); color: #FFFFFF; border-color: transparent; opacity: .93; }
 .lg-arco .btn__note { color: #DFF5E6; }
 .lg-side { position: static; max-height: none; overflow: visible; }
+
+/* ---------- Botón Menú (celular) ---------- */
+.nav-toggle {
+  width: auto; padding: 0 .85rem; gap: .35rem;
+  grid-auto-flow: column; align-items: center;
+  font: inherit; font-weight: 700; font-size: 1rem;
+}
+.nav-toggle svg { width: 16px; height: 16px; transition: transform .2s; }
+.nav-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+
+/* ---------- Botón flotante de WhatsApp ---------- */
+.wa-float {
+  position: fixed; right: 16px; bottom: 16px; z-index: 60;
+  display: inline-flex; align-items: center; gap: .6rem;
+  padding: .6rem 1rem .6rem .75rem; border-radius: 999px;
+  background: #0F7A3F; color: #FFFFFF; text-decoration: none;
+  box-shadow: 0 10px 24px -8px rgba(0, 0, 0, .45);
+  transition: transform .15s, background .15s;
+}
+.wa-float:hover { background: #0B6633; transform: translateY(-2px); }
+.wa-float:focus-visible { outline: 3px solid #FFFFFF; outline-offset: 2px; box-shadow: 0 0 0 6px #0F7A3F; }
+.wa-float svg { width: 28px; height: 28px; flex: none; }
+.wa-float__text { display: flex; flex-direction: column; line-height: 1.15; }
+.wa-float__label { font-size: .78rem; font-weight: 600; }
+.wa-float__num { font-size: 1rem; font-weight: 800; white-space: nowrap; }
+.site-footer { padding-bottom: 5.5rem; }
+@media (prefers-reduced-motion: reduce) { .wa-float, .nav-toggle svg { transition: none; } }
