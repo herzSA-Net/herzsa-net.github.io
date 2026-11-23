@@ -30,20 +30,20 @@ export const config = {
 
   // --- Responsable legal (aviso de privacidad / términos) -------------
   legal: {
-    ownerName: null,        // Nombre o razón social del responsable
-    ownerAddress: null,     // Domicilio para efectos del aviso de privacidad
-    privacyEmail: null,     // Correo para solicitudes ARCO
+    ownerName: "Silverio Hernandez Cruz",
+    ownerAddress: "Calle Deportiva S/N, Gral. Emiliano Zapata El Pescadito, Uxpanapa, Ver.",
+    privacyEmail: "herznetmultiservicios@gmail.com",
     approved: false,        // Cambiar a true SOLO tras revisión legal
     lastUpdated: null,      // Ej. "1 de diciembre de 2026" una vez aprobados
   },
 
   // --- Contacto ------------------------------------------------------
   contact: {
-    supportEmail: null,     // Ej. "soporte@dominio-oficial"
-    phone: null,            // Formato visible, ej. "+52 ..."
-    whatsapp: null,         // Solo dígitos con código de país, ej. "52XXXXXXXXXX"
-    hours: null,            // Ej. "Lunes a sábado, 9:00 a 18:00"
-    address: null,          // Oficina de atención, si existe
+    supportEmail: "herznetmultiservicios@gmail.com",
+    phone: "921 326 2343",
+    whatsapp: "+52 921 326 2343",   // el enlace usa solo los dígitos (529213262343)
+    hours: "Lunes a viernes de 13:00 a 18:00; sábados y domingos de 8:00 a 18:00",
+    address: "Calle Deportiva S/N, Gral. Emiliano Zapata El Pescadito, Uxpanapa, Ver.",
   },
 
   social: {
