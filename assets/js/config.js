@@ -26,7 +26,7 @@ export const config = {
 
   // URL pública definitiva (con "/" final). Provisional hasta confirmar.
   // Si cambia, actualice también sitemap.xml, robots.txt y canonical/og:url.
-  siteUrl: "https://herzsa-net.github.io/",
+  siteUrl: "https://herzsa.net/",
 
   // --- Responsable legal (aviso de privacidad / términos) -------------
   legal: {

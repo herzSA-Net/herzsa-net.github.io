@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- URL provisional: actualizar si el sitio se publica en otro repositorio o dominio -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://herzsa-net.github.io/</loc></url>
-  <url><loc>https://herzsa-net.github.io/servicios/</loc></url>
-  <url><loc>https://herzsa-net.github.io/planes/</loc></url>
-  <url><loc>https://herzsa-net.github.io/cobertura/</loc></url>
-  <url><loc>https://herzsa-net.github.io/multinet/</loc></url>
-  <url><loc>https://herzsa-net.github.io/herzsa-tv/</loc></url>
-  <url><loc>https://herzsa-net.github.io/herzsa-tv/descargar/</loc></url>
-  <url><loc>https://herzsa-net.github.io/herzsa-tv/privacidad/</loc></url>
-  <url><loc>https://herzsa-net.github.io/herzsa-tv/terminos/</loc></url>
-  <url><loc>https://herzsa-net.github.io/herzsa-tv/soporte/</loc></url>
-  <url><loc>https://herzsa-net.github.io/soporte/</loc></url>
-  <url><loc>https://herzsa-net.github.io/privacidad/</loc></url>
-  <url><loc>https://herzsa-net.github.io/terminos/</loc></url>
+  <url><loc>https://herzsa.net/</loc></url>
+  <url><loc>https://herzsa.net/servicios/</loc></url>
+  <url><loc>https://herzsa.net/planes/</loc></url>
+  <url><loc>https://herzsa.net/cobertura/</loc></url>
+  <url><loc>https://herzsa.net/multinet/</loc></url>
+  <url><loc>https://herzsa.net/herzsa-tv/</loc></url>
+  <url><loc>https://herzsa.net/herzsa-tv/descargar/</loc></url>
+  <url><loc>https://herzsa.net/herzsa-tv/privacidad/</loc></url>
+  <url><loc>https://herzsa.net/herzsa-tv/terminos/</loc></url>
+  <url><loc>https://herzsa.net/herzsa-tv/soporte/</loc></url>
+  <url><loc>https://herzsa.net/soporte/</loc></url>
+  <url><loc>https://herzsa.net/privacidad/</loc></url>
+  <url><loc>https://herzsa.net/terminos/</loc></url>
 </urlset>
