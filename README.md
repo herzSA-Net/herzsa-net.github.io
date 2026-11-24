@@ -117,10 +117,10 @@ Válidas una vez publicado y verificado el sitio en `https://herzsa.net/`:
 
 | Plataforma | Versión | Archivo | Origen |
 |---|---|---|---|
-| Android | 1.5.0 | `assets/descargas/HerzSA-TV-1.5.0.apk` (4.7 MB) | `Herzsanet_Iptv_apli/herzsa-tv-android/releases/` |
-| Roku | 1.1.0 | `assets/descargas/HerzSA-TV-Roku-1.1.0.zip` (1 MB) | `Herzsanet_Iptv_apli/herzsa-tv-roku/releases/` |
-| Samsung (Tizen) | 1.1.0 | `assets/descargas/HerzSA-TV-Samsung-1.1.0-proyecto.zip` y `.wgt` sin firmar (0.7 MB) | `Herzsanet_Iptv_apli/herzsa-tv-samsung/releases/` |
-| Windows | 1.3.0 | Enlace al panel: `https://control-isp.herdzsa.net/static/downloads/windows/HerzSA-TV-Windows-1.3.0.exe` | El `.exe` pesa 117 MB y GitHub no admite archivos de más de 100 MB en un repositorio |
+| Android | 1.5.1 | `assets/descargas/HerzSA-TV-1.5.1.apk` (4.7 MB) | `Herzsanet_Iptv_apli/herzsa-tv-android/releases/` |
+| Roku | 1.1.1 | `assets/descargas/HerzSA-TV-Roku-1.1.1.zip` (1 MB) | `Herzsanet_Iptv_apli/herzsa-tv-roku/releases/` |
+| Samsung (Tizen) | 1.1.1 | `assets/descargas/HerzSA-TV-Samsung-1.1.1-proyecto.zip` y `.wgt` sin firmar (0.7 MB) | `Herzsanet_Iptv_apli/herzsa-tv-samsung/releases/` |
+| Windows | 1.3.1 | Enlace al panel: `https://control-isp.herdzsa.net/static/downloads/windows/HerzSA-TV-Windows-1.3.1.exe` | El `.exe` pesa 117 MB y GitHub no admite archivos de más de 100 MB en un repositorio |
 
 Para publicar una versión nueva: copie el archivo a `assets/descargas/` (o cambie el enlace de Windows), borre el anterior y actualice en `herzsa-tv/descargar/index.html` el nombre del archivo, la versión, el tamaño y la huella SHA-256 (`sha256sum archivo`), y la versión que se menciona en `herzsa-tv/index.html` y en los avisos de privacidad.
 
