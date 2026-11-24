@@ -48,7 +48,7 @@ Use un servidor local; al abrir los archivos con doble clic (`file://`) el naveg
 
 ## Cómo editar datos
 
-1. **Todo en `assets/js/config.js`:** contacto, planes (`plans`), costo de instalación, fichas (`vouchers`), puntos de venta (`salesPoints`), paquetes de radio (`radioPackages`), redes aliadas (`allies`), localidades (`coverage`) y estado de la app. Un valor `null` o una lista vacía se muestra como «Pendiente de confirmar», y los botones de correo, WhatsApp y teléfono quedan deshabilitados hasta tener datos.
+1. **Todo en `assets/js/config.js`:** contacto, planes (`plans`), fichas (`vouchers`), puntos de venta (`salesPoints`), paquetes de radio (`radioPackages`), redes aliadas (`allies`), localidades (`coverage`) y estado de la app. Un valor `null` o una lista vacía se muestra como «Pendiente de confirmar», y los botones de correo, WhatsApp y teléfono quedan deshabilitados hasta tener datos.
 2. **Cobertura:** cada localidad es `["Nombre", ["id-de-red", ...]]`; los `id` son los de `allies`. Los colores de cada red solo sirven para distinguirlas en el sitio y no son colores oficiales de esas marcas.
 3. **Logotipos:** reemplace los archivos de `assets/images/` conservando el nombre.
 4. **Textos legales:** edite `privacidad/index.html` y `terminos/index.html` y busque `PENDIENTE DE CONFIRMAR`.

@@ -55,21 +55,20 @@ export const config = {
 
   // --- Planes residenciales -------------------------------------------
   currency: "MXN",
-  installationCost: 500,
   plans: [
     {
-      id: "basico", tone: "blue", name: "Plan Básico", subtitle: "Para tu hogar", speed: "80 Mbps", price: 300,
+      id: "basico", tone: "blue", name: "Plan Básico", subtitle: "Para tu hogar", speed: "80 Mbps", price: 360,
       description: "Perfecto para navegación ligera en el hogar.",
-      features: ["Un Usuario Local HerzSA.Net", "Sin límite de dispositivos", "IPTV por $40 adicionales"],
+      features: ["Un Usuario Plus MultiNet", "Un Usuario Local HerzSA.Net", "Sin límite de dispositivos", "IPTV por $40 adicionales"],
     },
     {
-      id: "lite", tone: "green", badge: "IPTV incluido", name: "Plan Lite", subtitle: "Hogar y streaming", speed: "100 Mbps", price: 400,
+      id: "lite", tone: "green", badge: "IPTV incluido", name: "Plan Lite", subtitle: "Hogar y streaming", speed: "100 Mbps", price: 450,
       description: "Navegación para todo el hogar y streaming.",
       features: ["Internet ilimitado", "Un Usuario Plus MultiNet", "Dos Usuarios Locales HerzSA.Net", "IPTV incluido"],
       highlight: true,
     },
     {
-      id: "plus", tone: "orange", badge: "Máximo rendimiento", name: "Plan Plus", subtitle: "Máximo rendimiento", speed: "150 Mbps", price: 500,
+      id: "plus", tone: "orange", badge: "Máximo rendimiento", name: "Plan Plus", subtitle: "Máximo rendimiento", speed: "150 Mbps", price: 550,
       description: "Para navegación exigente.",
       features: ["Internet sin límite", "Dos Usuarios Plus MultiNet", "Dos Usuarios Locales HerzSA.Net", "IPTV incluido"],
     },

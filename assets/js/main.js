@@ -381,7 +381,6 @@ function fillStats() {
     herzsaLocalities: config.coverage.filter(([, n]) => n.includes("herzsa")).length,
     maxSpeed: Math.max(...config.plans.map((p) => parseInt(p.speed, 10))),
     minPrice: Math.min(...config.plans.map((p) => p.price)),
-    installation: config.installationCost,
     salesPoints: config.salesPoints.length,
   };
   document.querySelectorAll("[data-stat]").forEach((el) => {
