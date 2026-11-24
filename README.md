@@ -44,7 +44,7 @@ Use un servidor local; al abrir los archivos con doble clic (`file://`) el naveg
 - **Diseño de la página principal:** muestra `imagenes/pgnw.png`. La foto `assets/images/hero-atardecer.webp` se recortó de esa muestra (se borró el logotipo incrustado); conviene sustituirla por la foto original en alta resolución con el mismo nombre.
 - **Logotipo plano:** `logo-herzsa-azul.svg` y `logo-herzsa-blanco.svg`, redibujados en vectores a partir de la muestra.
 - **Logotipos:** `herzsa.webp` y `multinet.webp` del mismo portal; icono de HerzSA TV de `Herzsanet_Iptv_apli/herzsa-tv-roku/images/icono_fhd.png`.
-- **Funcionamiento de HerzSA TV (aviso de privacidad §5):** código de la app Roku v1.0.12 (`Herzsanet_Iptv_apli/herzsa-tv-roku`). Si la app cambia, revise ese apartado.
+- **Funcionamiento de HerzSA TV (aviso de privacidad §5):** código de la app Roku v1.0.13 (`Herzsanet_Iptv_apli/herzsa-tv-roku`). Si la app cambia, revise ese apartado.
 
 ## Cómo editar datos
 
@@ -118,7 +118,7 @@ Válidas una vez publicado y verificado el sitio en `https://herzsa.net/`:
 | Plataforma | Versión | Archivo | Origen |
 |---|---|---|---|
 | Android | 1.4.5 | `assets/descargas/HerzSA-TV-1.4.5.apk` (4.6 MB) | `Herzsanet_Iptv_apli/herzsa-tv-android/releases/` |
-| Roku | 1.0.12 | `assets/descargas/HerzSA-TV-Roku-1.0.12.zip` (1 MB) | `Herzsanet_Iptv_apli/herzsa-tv-roku/releases/` |
+| Roku | 1.0.13 | `assets/descargas/HerzSA-TV-Roku-1.0.13.zip` (1 MB) | `Herzsanet_Iptv_apli/herzsa-tv-roku/releases/` |
 | Windows | 1.2.4 | Enlace al panel: `https://control-isp.herdzsa.net/static/downloads/windows/HerzSA-TV-Windows-1.2.4.exe` | El `.exe` pesa 117 MB y GitHub no admite archivos de más de 100 MB en un repositorio |
 
 Para publicar una versión nueva: copie el archivo a `assets/descargas/` (o cambie el enlace de Windows), borre el anterior y actualice en `herzsa-tv/descargar/index.html` el nombre del archivo, la versión, el tamaño y la huella SHA-256 (`sha256sum archivo`), y la versión que se menciona en `herzsa-tv/index.html` y en los avisos de privacidad.
