@@ -33,8 +33,8 @@ export const config = {
     ownerName: "Silverio Hernandez Cruz",
     ownerAddress: "Calle Deportiva S/N, Gral. Emiliano Zapata El Pescadito, Uxpanapa, Ver.",
     privacyEmail: "herznetmultiservicios@gmail.com",
-    approved: false,        // Cambiar a true SOLO tras revisión legal
-    lastUpdated: null,      // Ej. "1 de diciembre de 2026" una vez aprobados
+    approved: true,         // Textos aprobados por el responsable (24-nov-2026); se recomienda revisión legal
+    lastUpdated: "24 de noviembre de 2026",
   },
 
   // --- Contacto ------------------------------------------------------
