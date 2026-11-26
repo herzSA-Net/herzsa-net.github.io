@@ -28,7 +28,7 @@ if errorlevel 1 ( echo No se pudo firmar. Revise el nombre del perfil. & pause &
 
 echo Instalando ...
 call "%TIZEN%" install -n "%TEMP%\HerzSA-TV.wgt" -s %IP%:26101
-if errorlevel 1 ( echo No se pudo instalar. Si dice "certificate", agregue el DUID del televisor al certificado de distribuidor. & pause & exit /b 1 )
+if errorlevel 1 ( echo No se pudo instalar. & echo Si dice "certificate": en Tizen Studio vaya a Tools - Device Manager, haga clic derecho en el televisor, elija "Permit to install applications" y vuelva a ejecutar este archivo. & echo Si sigue igual, agregue el DUID del televisor al certificado de distribuidor en Certificate Manager. & pause & exit /b 1 )
 
 echo.
 echo Listo: HerzSA TV quedo instalada. Desde ahora se actualiza sola al abrirla.
